@@ -1,0 +1,11 @@
+﻿<Window x:Class="lr3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TransferSimulatorApp" Height="350" Width="400">
+    <Grid>
+        <Button x:Name="ButtonGetFullName" Content="Получить данные" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="120" Click="ButtonGetFullName_Click"/>
+        <Button x:Name="ButtonSendResult" Content="Отправить результат теста" HorizontalAlignment="Left" Margin="50,100,0,0" VerticalAlignment="Top" Width="200" Click="ButtonSendResult_Click"/>
+        <TextBlock x:Name="TextBlockFullName" HorizontalAlignment="Left" Margin="50,150,0,0" VerticalAlignment="Top" Width="300" Height="50"/>
+        <TextBlock x:Name="TextBlockResult" HorizontalAlignment="Left" Margin="50,200,0,0" VerticalAlignment="Top" Width="300" Height="50"/>
+    </Grid>
+</Window>
